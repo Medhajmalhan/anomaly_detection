@@ -1,15 +1,42 @@
 # Efficient Data Stream Anomaly Detection
 
-This project implements a real-time anomaly detection system for streaming data, utilizing Z-score thresholding and a sliding window. The project includes real-time data simulation, anomaly detection, and visualization using Dash.
+## Project Title
 
-## How to Run
+Efficient Data Stream Anomaly Detection using Python
 
-1. Install dependencies: `pip install -r requirements.txt`
-2. Run the application: `python main.py`
-3. View the real-time dashboard in your web browser at `http://127.0.0.1:8050`.
+## Overview
 
-## Key Components
+This project demonstrates the implementation of a real-time anomaly detection system that processes a continuous data stream. The primary focus is on identifying unusual patterns using the **Isolation Forest** algorithm, effectively highlighting exceptional values or deviations from normal behavior.
 
-- **Data Stream Simulation**: Generates data with seasonality, noise, and random anomalies.
-- **Anomaly Detection**: Flags anomalies based on a Z-score threshold.
-- **Real-Time Visualization**: Displays data and detected anomalies on an interactive dashboard.
+## Objectives
+
+- Implement an algorithm capable of detecting anomalies in streaming data.
+- Simulate a data stream with regular patterns, seasonal elements, and noise.
+- Develop a real-time mechanism to accurately flag anomalies.
+- Create a visualization tool to display both the data stream and detected anomalies.
+
+## Algorithm Explanation
+
+The **Isolation Forest** algorithm is used for anomaly detection. It isolates outliers based on how quickly they can be separated from the rest of the data. This method is effective for high-dimensional data and adapts well to changes in data patterns.
+
+## Installation
+
+1. Clone the repository.
+2. Create and activate a virtual environment.
+3. Install dependencies.
+
+## Usage
+
+Run the application and view in the browser.
+
+## Documentation
+
+Code is thoroughly documented. Key sections are explained through comments to clarify the logic and functionality of the system.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit issues or pull requests.
+
+## License
+
+This project is licensed under the MIT License.
